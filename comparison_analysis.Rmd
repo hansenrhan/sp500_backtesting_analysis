@@ -18,19 +18,19 @@ library(magrittr)
 
 ## Load Data
 ```{r}
-df1 <- read_csv("mean_reversion_no_shorting_100_runs.csv")
+df1 <- read_csv("run_output/mean_reversion_no_shorting_100_runs.csv")
 df1$strategy <- "Mean Reversion"
 df1$shorting <- FALSE
 
-df2 <- read_csv("mean_reversion_shorting_allowed_100_runs.csv")
+df2 <- read_csv("run_output/mean_reversion_shorting_allowed_100_runs.csv")
 df2$strategy <- "Mean Reversion"
 df2$shorting <- TRUE
 
-df3 <- read_csv("sma_crossover_no_shorting_100_runs.csv")
+df3 <- read_csv("run_output/sma_crossover_no_shorting_100_runs.csv")
 df3$strategy <- "SMA Crossover"
 df3$shorting <- FALSE
 
-df4 <- read_csv("sma_crossover_shorting_allowed_100_runs.csv")
+df4 <- read_csv("run_output/sma_crossover_shorting_allowed_100_runs.csv")
 df4$strategy <- "SMA Crossover"
 df4$shorting <- TRUE
 
