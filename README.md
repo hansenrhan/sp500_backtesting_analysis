@@ -33,3 +33,12 @@ Python:
 R:
 - tidyverse
 - ggpubr
+
+## Implementing Strategies with the Alpaca API
+Once you've analyzed and discovered the most promising parameters using this backtesting repository, you may want to actually implement the strategies in live trading.
+
+I have developed another script for this purpose: the Alpaca SMA Crossover Trader (https://github.com/hansenrhan/alpaca_sma_crossover_trader). This Python script uses the Alpaca API to execute trades based on the Simple Moving Average (SMA) crossover strategy.
+
+With slight modifications to the code, you can substitute in the parameters for the SMA periods that you discovered using this backtesting analysis. 
+
+Please be reminded that this script is for illustrative and educational purposes only. It should not be used for making actual investment decisions without understanding and adjusting it to your specific needs and risk tolerance. Please check out the Alpaca SMA Crossover Trader for more information.
