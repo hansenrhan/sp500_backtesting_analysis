@@ -1,5 +1,5 @@
-# sp500_backtesting_analysis
-Do mean reversion and/or trend following strategies work better than buy and hold w/ the S&amp;P 500? 
+# stock_backtesting_analysis
+Do mean reversion and/or trend following strategies work better than buy and hold for stocks? 
 
 ![plot](/img/download-1.png)
 
@@ -9,6 +9,8 @@ I was curious to see if trend following and/or mean reversion strategies outperf
 I looked at hourly data from the past two years using the yfinance library (since hourly data further past than that is not readily available). It would be interesting to look at that in the future.
 
 I looked at four strategies: Mean Reversion w/ Shorting, Mean Reversion w/o Shorting, SMA Crossover w/ Shorting and SMA Crossover w/o Shorting. SMA Crossover strategies performed much higher across the board than Mean Reversion strategies, and only SMA Crossover w/ Shorting beat S&P 500 buy and hold in more than 50% of the runs. 
+
+The code can be generalized to any other ticket available with yfinance. 
 
 ![plot](/img/comparison.png)
 
